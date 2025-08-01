@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+@theme {
+    --color-primary: #5044E5;
+}
+
+.reset-tw, .reset-tw * {
+    all: revert !important;
+}
+
+.reset\.tw p {
+  margin-bottom: 1rem;
+  line-height: 1.75rem; /* improves readability */
+}
+
+.reset\.tw h1,
+.reset\.tw h2,
+.reset\.tw h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.reset\.tw ul,
+.reset\.tw ol {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.reset\.tw li {
+  margin-bottom: 0.5rem;
+}
+
+
+.cl-drawerRoot{
+    z-index: 10;
+   
+}
